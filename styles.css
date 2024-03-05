@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    background: url(ceu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(175, 190, 214, 0.3);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    border-radius: 35px;
+    box-shadow: 4px 0px 15px 2px;
+    overflow: hidden;
+
+
+    
+}
+
+.input{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.check{
+    color:#f9f9ff;
+}
+#login{
+    transition: 0.1
+    ms;
+    
+}
+#login:hover{
+    opacity: 0.6;
+    color:white;
+    transform: scale(0.9);
+
+    
+}
+
+button{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(204, 165, 199, 0.962);
+
+}
+#senha{
+    display: flex;
+    
+}
+.input:hover{
+    color: rgb(97, 110, 118);
+}
+
+.check:hover{
+    color: rgb(97, 110, 118);
+}
